@@ -44,31 +44,29 @@ let amount = 4280;
 // Accessing and assigning.
 
 /* firstName */
-alert("John");
+alert("firstName");
 /* lastName */
-alert("Snow");
+alert("lastName");
 /* Assign new Value */
-let FirstName = "John";
+firstName = "John";
 /* New Value to the lastname */
-let LastName = "Snow";
+lastName = "Snow";
 /* concatenate */
-let FullName = FirstName + "  " + LastName;
+alert(firstName + lastName);
 /* const */
-const fullName =  FirstName + " " + LastName ;
+const fullName =  firstName + " " + lastName ;
 /* Declare three variable */
-let name;
-let newUser;
-let isAdmin;
+let name, newUser, isAdmin;
 /* Value of name */
 Name = "yukti";
-
-Name = "newUser"
+/* newUser */
+newUser = "name";
 /* set the isAdmin */
 isAdmin = true;
 /* Alert */
-alert("yukti");
+alert("name");
 alert("newUser");
-alert("true");
+alert("isAdmin");
 
 // Assignment and re-assignment
 
@@ -84,10 +82,10 @@ oddNumber = "61"
 
 // Mathematical Operation 
 
-let reducedAmount = "4258";
+let reducedAmount = amount - 24;
 
-let ddedAmount = "4312";
+let addedAmount = amount + 32;
 
-let multipleAmount = "29960";
+let multipleAmount = amount * 7;
 
-let dividedAmount = "75.0877193";
+let dividedAmount = amount / 57;
