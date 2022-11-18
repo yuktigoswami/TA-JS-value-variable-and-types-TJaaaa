@@ -7,23 +7,55 @@
   - `if` the number is odd print the message "number is odd"
 */
 
+let number = 8
+let remainder = (number % 2)
+if (remainder == 0)
+{
+  console.log(`${number} is even`)
+}else{
+  console.log(`${number} is odd`)
+}
+
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
+let A = Number(prompt("Enter first number"));
+let B = Number(prompt("Enter second number"));
+if (A > B){
+  alert(`${A} is maximum`);
+}else{(B > A) 
+  alert(`${B} is maximum`);
+}
+
 // 3. Convert the above code using`?` terniary operator
+
+A > B ?
+alert(`${A} is maximum`) : alert(`${B} is maximum`);
+
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
 
-  - `if` house name is "stark" then print the message " Winter is coming"
+  - `if` house name is "stark" then print the message "Winter is coming"
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
+let house = "stark";
+if (house = "stark"){
+alert("winter is coming")
+}
+if (house = "lannister"){
+alert("A lannister always pays his debt")
+}else{ 
+  alert("All men must die")
+}
 
 // 5. Convert the above code using`?` terniary operator
+
 
 // Switch
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
+switch
 
 /* 7.
 - Write a program that take the salery of the user using prompt and alert the in -hand amount.You will find out the in -hand amount by deducting the tax amoun from salery.Conditions are given below.
@@ -32,6 +64,7 @@
   - `Salary > 50000` tax is 30 %
 
 */
+
 
 //  if..else vs switch
 
