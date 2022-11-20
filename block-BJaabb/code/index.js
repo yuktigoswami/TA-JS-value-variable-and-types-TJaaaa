@@ -6,17 +6,41 @@
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
 
+let user = prompt("Name");
+alert(`${user}`);
+
+let userName = prompt("Username");
+console.log(`user: ${user} Username: ${userName}`)
+
+let age = 22, isLearning = true;
+
+
+
+
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
+
+
 
 // Loops
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
+for (let j = 0; j <= 10; j = j + 1) {
+    if (j % 2 == 0) {
+        console.log(j);   
+    }
+} 
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
+
+for (let i = 9; i < 1; i = i - 1) {
+    if (i % 2 !== 0){
+        console.log(i);
+    }
+}
+
 
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
 
