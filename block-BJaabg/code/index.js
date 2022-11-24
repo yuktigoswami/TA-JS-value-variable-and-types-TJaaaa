@@ -16,3 +16,13 @@ var amount = 0;
 // your code goes here
 
 // ⛑ Answer of the above will `$334.76`.
+
+let totalPrice = 0
+
+switch(number)
+{
+  case bank_balance = 303.91:
+    break;
+  case SPENDING_THRESHOLD = 200:
+    break;
+}
